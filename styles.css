@@ -1,0 +1,70 @@
+* {
+    font-family: 'Noto Serif NP Hmong', serif;
+    box-sizing: border-box;
+    margin: 0;
+   }
+   
+   #title {
+     font-size: 1.75rem;
+     margin: 2rem;
+     box-shadow: -5px 5px 20px 5px black;
+     border: 3px solid silver;
+     text-shadow: -5px 5px 5px black;
+     text-align: center;
+     background-color: rgb(30, 30, 30);
+     color: #cccccc;
+     border-radius: 0.5rem;
+   }
+   
+   img {
+     display: block;
+     max-width: 100%;
+     max-height: auto;
+     border-radius: 1.5rem;
+     border: 3px solid silver;
+     box-shadow: -5px 5px 20px 5px black;
+   }
+   
+   figure {
+     margin: 3rem 2rem;
+   }
+   
+   figcaption {
+     margin-top: 6px;
+     margin-left: 20px;
+     color: #968795;
+   }
+   
+   body {
+     background-image: radial-gradient(
+       farthest-corner at 40px 40px,
+       #000,
+       #333333,
+       #000
+     )
+     ;
+   }
+   
+   #tribute-info {
+     background-color: gray;
+     border-radius: .5rem;
+     padding: .5rem 1.5rem;
+     margin: 2rem;
+     border: 5px solid black;
+     box-shadow: -5px 5px 20px 5px black;
+   }
+   
+   #tribute-info > h3 {
+     margin: 0 0 15px 0;
+   }
+   
+   #more-info {
+     margin: 3rem 1rem 3rem 3rem;
+     color: GhostWhite;
+     text-shadow: -5px 5px 5px black;
+   }
+   
+   a {
+     color: #2881fc;
+     text-decoration: none;
+   }
